@@ -1,0 +1,25 @@
+h1{
+    background: cyan;
+
+}
+.paragraph-1 {
+    background: blue;
+    font-size: 32pt;
+    color: aliceblue;
+}
+.paragraph-2 {
+    border: 10px solid yellow;
+    border-radius: 5px;
+    font-size: 24pt;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 60px;
+    
+}
+.paragraph-3 {
+    font-weight: bold;
+    font-size: 22px;
+    font-family: 'Times New Roman', Times, serif;
+}
