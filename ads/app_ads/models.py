@@ -3,6 +3,9 @@ from django.db import models
 
 # Здесь создаются модели новых таблиц, затем нужно будет мигрировоть с помощью "python manage.py migrate" их в БД, но сначала их создать с помощью "python manage.py makemigrations" в миграциях
 class Advertisement(models.Model):
+    def __str__(self):
+        return f'Advertisement (id= {(self.id)}, title= {self.title}, price = {self.price})'    
+    
     class Meta:
         db_table = "advertisement"
     title = models.CharField('заголовок', max_length=128) # Символьное поле. max_length - количество символов в названии
